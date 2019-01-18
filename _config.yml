@@ -13,19 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Stopsafe 
-email: bemaillo@edu.uwaterloo.ca
-description: The short version of the blurb 
+title: RECAP 
+email: 
+description: Rear-End Collision Avoidance Project 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
-github_username: bemailloux 
+github_username: "uw-recap"
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    github: uw-recap 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

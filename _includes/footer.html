@@ -4,29 +4,19 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col one-half">
+      <div class="footer-col one-half footer-col-left" >
       <h2 class="footer-heading">{{ site.title | escape }}</h2>
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
       </div>
 
-      <div class="footer-col one-half">
+      <div class="footer-col one-half footer-col-right">
         <p>{{- site.description | escape -}}</p>
       </div>
 
-      <div class="social-links">
-        {%- include social.html -%}
+      <div class="footer-github-link">
+        {%- assign social = site.minima.social_links -%}
+        <a href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
       </div>
+      
     </div>
 
   </div>
