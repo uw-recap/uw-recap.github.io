@@ -52,5 +52,10 @@
 
 .footer-github-link>a {
     position: absolute;
-    left: 50%;
+    left: $spacing_unit / 2;
+    top: $spacing_unit;
+}
+
+.github-icon {
+    padding: 0px 3px 3px 0px;
 }
