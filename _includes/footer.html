@@ -6,16 +6,16 @@
     <div class="footer-col-wrapper">
       <div class="footer-col one-half footer-col-left" >
       <h2 class="footer-heading">{{ site.title | escape }}</h2>
+      {%- assign social = site.minima.social_links -%}
+      <a href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><svg class="svg-icon grey github-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>{{ social.github }}</a>
       </div>
 
       <div class="footer-col one-half footer-col-right">
         <p>{{- site.description | escape -}}</p>
-        <p>Created by UW Mechatronics Engineering students</p>
+        <p>Created by Mechatronics Engineering students at the University of Waterloo</p>
       </div>
 
       <div class="footer-github-link">
-        {%- assign social = site.minima.social_links -%}
-        <a href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><svg class="svg-icon grey github-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>{{ social.github }}</a>
       </div>
 
     </div>

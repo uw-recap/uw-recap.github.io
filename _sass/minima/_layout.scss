@@ -125,7 +125,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   background-color: $brand-color;
-  padding: $spacing-unit 0;
+  padding: $spacing-unit 0 0 0;
 }
 
 .footer-heading {
@@ -300,11 +300,11 @@
 }
 
 .separator {
-  width: -webkit-calc(#{$content-width});
-  width:         calc(#{$content-width});
+  width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+  width:         calc(#{$content-width} - (#{$spacing-unit}));
+
   background-color: $brand-color;
   height: 6px;
-  position: absolute;
-  left: 50%;
-transform: translate(-50%, -50%);
+  margin-right: auto;
+  margin-left: auto;
 }
