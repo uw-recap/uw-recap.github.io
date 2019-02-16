@@ -10,13 +10,14 @@
 
       <div class="footer-col one-half footer-col-right">
         <p>{{- site.description | escape -}}</p>
+        <p>Created by UW Mechatronics Engineering students</p>
       </div>
 
       <div class="footer-github-link">
         {%- assign social = site.minima.social_links -%}
         <a href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><svg class="svg-icon grey github-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>{{ social.github }}</a>
       </div>
-      
+
     </div>
 
   </div>

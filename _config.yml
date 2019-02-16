@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: RECAP 
-email: 
-description: Rear-End Collision Avoidance Project 
+title: "RECAP: Rear-End Collision Avoidance Project"
+email:
+description: A V2V-Communication-based Driver Aid
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+twitter_username:
 github_username: "uw-recap"
 
 # Build settings
@@ -32,7 +32,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    github: uw-recap 
+    github: uw-recap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
