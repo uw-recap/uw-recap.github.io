@@ -24,18 +24,26 @@ layout: default
 
     <div class="home-section">
       <div class="wrapper">
+        <div class="home-main-title wrapper">
+          <div class="home-main-title-text">
+            <h1>Main Features</h1>
+          </div>
+        </div>
         {% include home-feature.html
             class="leftmost"
             title=page.feature-title-1
             content=page.feature-content-1
+            icon="/assets/img/v2v-comm.svg"
         %}
         {% include home-feature.html
             title=page.feature-title-2
             content=page.feature-content-2
+            icon="/assets/img/filter2.svg"
         %}
         {% include home-feature.html
             title=page.feature-title-3
             content=page.feature-content-3
+            icon="/assets/img/UI.svg"
         %}
       </div>
     </div>

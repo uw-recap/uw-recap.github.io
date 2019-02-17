@@ -2,13 +2,13 @@
 layout: home
 
 feature-title-1: V2V Communication
-feature-content-1: Vehicle-to-vehicle communication means that you get information about other vehicles as soon as it is available
+feature-content-1: Vehicle-to-vehicle communication means that you get information about other vehicles as soon as it is available.
 
 feature-title-2: Data Processing
-feature-content-2: Our algorithms use GPS and vehicle data to figure out which vehicles around you are the most dangerous
+feature-content-2: Our algorithms use GPS and vehicle data to figure out which vehicles around you are the most dangerous.
 
 feature-title-3: Driver Assist
-feature-content-3: We present information about other vehicles in a simple way to reinforce safe driving behaviours
+feature-content-3: We present information about other vehicles in a simple way to reinforce safe driving behaviours.
 ---
 <!-- Main homepage info -->
 # What is RECAP?

@@ -40,6 +40,14 @@
   margin-right: $spacing-unit/2;
   margin-bottom: $spacing-unit;
   margin-left: $spacing-unit/2;
+  text-align: center;
+}
+
+.home-feature-icon {
+  width: 130px;
+  height: 130px;
+  margin: $spacing-unit auto;
+  display: block;
 }
 
 .footer-col-left {
