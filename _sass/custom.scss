@@ -1,3 +1,9 @@
+// GLOBAL
+p {
+  text-align: justify;
+}
+
+// HOMEPAGE
 .home-section {
     width: calc(100% - 2*$spacing-unit);
     padding: $spacing-unit;
@@ -28,9 +34,7 @@
     font-size: 30px;
 }
 
-.home-main-text {
-}
-
+// HOMEPAGE MAIN FEATURES
 .home-feature {
   @media screen and (min-width: $on-large) {
     width: calc(33.3% - #{$spacing-unit});
@@ -50,6 +54,7 @@
   display: block;
 }
 
+// FOOTER
 .footer-col-left {
     text-align: left;
     float: left;
