@@ -6,8 +6,12 @@ categories: RECAP system-integration progress
 ---
 In the past month we've been busy verifying the individual components of our prototype design. Here's a short overview of what those components are and what progress has been made.
 
+<br/>
+
 ## Enclosure
 We're working on designing a 3D-printable version of the enclosure for the RECAP system. The main goal of the enclosure is to be mountable inside a vehicle without much difficulty.
+
+<br/>
 
 ## Hardware
 RECAP has four major hardware components:
@@ -26,6 +30,8 @@ The [OBD-II UART Adapter v1](https://freematics.com/store/index.php?route=produc
 
 So far, we've made sure that all these components are functional and that they can each perform their tasks individually. Let's talk about some of the software we wrote to get things working.
 
+<br/>
+
 ## Software
 The pieces of code that we've written so far are as follows:
 
@@ -37,6 +43,8 @@ A basic implementation of the data filtering algorithm, which determines which v
 
 ### LCD Benchmarking Code
 Some methods to optimize the UI drawing were implemented and benchmarked to see how fast they would run. They may also need to be optimized further, depending on how things go during system integration.
+
+<br/>
 
 ## Next Steps
 As you've probably guessed by now, our next step is to put all the things we've been working on together. We expect to be troubleshooting the system integration during the next week. Afterwards, it'll be time for testing our proof-of-concept, both in a simulated environment, and in an actual vehicle.
