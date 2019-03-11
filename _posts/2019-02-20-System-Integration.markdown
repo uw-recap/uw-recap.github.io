@@ -2,7 +2,7 @@
 layout: post
 title:  "Time to Integrate"
 date:   2019-02-20 17:00:00 -0500
-categories: RECAP system-integration progress
+tags: RECAP system-integration progress
 ---
 In the past month we've been busy verifying the individual components of our prototype design. Here's a short overview of what those components are and what progress has been made.
 
