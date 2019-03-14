@@ -5,14 +5,18 @@ permalink: /about/
 ---
 ## What is RECAP?
 
-<img src="https://drive.google.com/file/d/1DKRTWdY1nmN05rhmaD8Oayx89vsUwZG3/view?usp=sharing" width="640" height="480"></img>
-
 The Rear-End Collision Avoidance Project (RECAP) is a driver-aid that uses a network established between nearby vehicles to share and make use of other vehicles’ status information to improve drivers’ situational awareness. Determining how quickly a vehicle ahead is decelerating can be challenging, making it difficult for drivers to know how hard to brake. RECAP provides drivers with clear information, allowing them to make better, more informed driving decisions to avoid dangerous situations. With RECAP, drivers are more aware, making roads safer.
+
+<img src="/assets/img/FYDPParts.png" width="640" height="480">
 
 The choice of the name "RECAP" refers to this project being our Capstone Design Project, which is a chance for us to recap and apply all the knowledge we have gained throughout our years as Mechatronics Engineering students at the University of Waterloo.
 
 ## The Problem
 Rear-end collisions between two vehicles are the most likely type of accident to occur: between 2007 and 2016, in Canada, **rear-end collisions between two vehicles represented 30% of all motor vehicle collisions** (according to data from the [National Collision Database Online](http://wwwapps2.tc.gc.ca/saf-sec-sur/7/ncdb-bndc/p.aspx?l=en)). We therefore decided to tackle rear-end collisions as a method of improving traffic safety.
+
+The following infographic also provides insight into the problem of traffic safety.
+
+<img src="/assets/img/FYDPNeedsAssessment.png" width="640" height="480">
 
 ## Existing Solutions
 Some driver assistance systems have already been developed to tackle the problem of rear-end collisions:
