@@ -8,4 +8,6 @@ Based on the results of [Monday’s test](/2019/03/04/In-Car-Testing-1.html) we 
 
 Additionally, we have been able to verify that heading data can be accurately obtained from the GPS and have figured out how to filter the velocity difference obtained from OBDII data to obtain a smooth value for acceleration. Now we can determine the relative range, bearing, velocity and acceleration between two vehicles. These are all of the parameters required to calculate a more accurate risk of collision using linear kinematic equations.
 
-<iframe src="https://drive.google.com/file/d/1o7S04sx3sZKUfB9xRli9ynuYExmlkW9G/preview" width="640" height="480"></iframe>
+<div class="iframe-wrapper">
+  <iframe src="https://drive.google.com/file/d/1o7S04sx3sZKUfB9xRli9ynuYExmlkW9G/preview" allowfullscreen></iframe>
+</div>
