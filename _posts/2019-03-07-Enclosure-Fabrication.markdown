@@ -8,10 +8,12 @@ As mentioned in a [previous blog post](/2019/03/03/Enclosure-Design.html), we’
 
 We chose to print using PLA due to its superior strength and tolerance relative to ABS on the WATiMake 3D printers we have access to. Our first print attempt failed due to the filament becoming tangled overnight while printing.
 
-<!-- <Picture of failed print> -->
+![Failed Print](/assets/img/Failed print.jpg)
 
 Due to the failure, we needed to retry printing. This time, we reduced the print speed which improved the quality substantially. Our second attempt was a success! All three parts were printed and can nicely be assembled to form a complete enclosure.
 
 <!-- <Photo all three parts> -->
+![Enclosure panels](/assets/img/Enclosure panels.jpg)
 
 <!-- <Photo of assembled enclosure> -->
+![Assembled Enclosure](/assets/img/Enclosure Assembled.jpg)

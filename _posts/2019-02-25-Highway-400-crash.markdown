@@ -9,6 +9,6 @@ tags: rear-end-collision Canada Toronto
 
 On Monday, [the CBC reported](https://www.cbc.ca/news/canada/toronto/multi-vehicle-collision-highway-400-1.5032371) that low visibility conditions caused by high winds, blowing snow and snow squalls near Barrie, Ontario led to a severe multi-vehicle collision on Highway 400 involving more than 70 vehicles. Incidents like this remind us of the dangers of driving, particularly in the wintertime, and reinforce the need for reliable vehicle safety systems.
 
-Under adverse weather conditions such as those present at the time of this accident, vehicle safety systems that depend on sensor readings may not be reliable. Augmenting these systems with vehicle-to-vehicle communications could give each driver more accurate information about their immediate surroundings, helping them to avoid future accidents.
+Under adverse weather conditions such as those present at the time of this accident, vehicle safety systems that depend on sensor readings may not be reliable. Augmenting these systems with vehicle-to-vehicle communications could give drivers more information about unseen risks on the road ahead.
 
 <!-- Though we’re not planning to implement an algorithm that uses weather or road conditions in the RECAP prototype, it’s something that we would like to add to future versions of the design. -->
